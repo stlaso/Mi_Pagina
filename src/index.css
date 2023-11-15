@@ -26,3 +26,18 @@ height: 100vh; /* Set the height of the section to 100% of the viewport height *
   align-items: center;
   justify-content: center;
 }
+
+.linea-derecha {
+
+  height: 0.3%;
+  top: 0;
+  background: linear-gradient(90deg, #dc18ff, transparent);
+}
+
+
+.linea-izquierda {
+
+  height: 0.3%;
+  top: 0;
+  background: linear-gradient( 90deg, transparent,#dc18ff);
+}
