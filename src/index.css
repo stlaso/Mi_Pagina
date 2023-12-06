@@ -5,8 +5,7 @@
 body
 {
   height: 100vh; 
-  overflow: hidden;
-
+  
   background: #C5AFBE;
   background: -moz-linear-gradient(45deg, #C5AFBE 0%, #51087E 40%, #26043C 100%);
   background: -webkit-linear-gradient(45deg, #C5AFBE 0%, #51087E 40%, #26043C 100%);
@@ -17,14 +16,7 @@ body
 .img-inicio
 {
   background-image: url('./img/imagen.png');
-  background-size: cover;
-  background-position: center;
-  
- 
-height: 100vh; /* Set the height of the section to 100% of the viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .linea-derecha {
@@ -40,4 +32,14 @@ height: 100vh; /* Set the height of the section to 100% of the viewport height *
   height: 0.3%;
   top: 0;
   background: linear-gradient( 90deg, transparent,#dc18ff);
+}
+
+.fondo
+{
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height of the section to 100% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
