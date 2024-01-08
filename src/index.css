@@ -2,43 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body
-{
-  height: 100vh; 
-  
-  background: #C5AFBE;
-  background: -moz-linear-gradient(45deg, #C5AFBE 0%, #51087E 40%, #26043C 100%);
-  background: -webkit-linear-gradient(45deg, #C5AFBE 0%, #51087E 40%, #26043C 100%);
-  background: linear-gradient(45deg, #C5AFBE 0%, #51087E 40%, #26043C 100%);
-
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
-.img-inicio
-{
-  background-image: url('./img/imagen.png');
-
-}
-
-.linea-derecha {
-
-  height: 0.3%;
-  top: 0;
-  background: linear-gradient(90deg, #dc18ff, transparent);
-}
-
-
-.linea-izquierda {
-
-  height: 0.3%;
-  top: 0;
-  background: linear-gradient( 90deg, transparent,#dc18ff);
-}
-
-.fondo
-{
+.fondo {
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Set the height of the section to 100% of the viewport height */
+  min-height: 100vh; /* Cambié height a min-height para asegurar que ocupe al menos el 100% del viewport height */
   display: flex;
   align-items: center;
   justify-content: center;

@@ -6,8 +6,10 @@ function App() {
   return (
 <>
     <Menu/>
-    <Inicio/>
-    <Info/>
+    <div className="fondo">
+        <Inicio />
+        <Info />
+    </div>
     
 </>
   );
