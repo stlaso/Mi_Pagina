@@ -1,7 +1,7 @@
 
 function Info() {
   return (
-    <div className="fondo">
+    <div >
       
 
     </div>

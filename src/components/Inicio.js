@@ -3,7 +3,7 @@
 function Inicio() {
     return (
         <>
-      <section className=" bg-center bg-no-repeat bg-blend-multiply flex">
+      <section className="w-full bg-center bg-no-repeat bg-blend-multiply flex">
       <div className="px-4 mx-auto max-w-screen-xl w-full text-center py-24 lg:py-56">
           <h3 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Hola soy </h3>
           <h2 className="mb-8 text-lg font-normal text-purple-600 lg:text-xl sm:px-16 lg:px-48">Martin Barrios</h2>
