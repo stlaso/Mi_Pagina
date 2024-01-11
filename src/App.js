@@ -1,14 +1,12 @@
-
-
 import Inicio from './components/Inicio.js';
-import Info from './components/Info.js'
+import Tema from './components/Tema.js'
 
 function App() {
   return (
 <>
-<div className="fondo">
+    <Tema/>
+    <div className="mx-auto max-w-3xl px-5 mb-5 flex flex-col gap-10">
         <Inicio />
-        <Info />
     </div>
     
 </>

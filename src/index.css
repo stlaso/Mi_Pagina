@@ -5,23 +5,14 @@
 body {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-  min-height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0; /* Elimina el margen predeterminado del body */
+
 }
 
 .fondo {
-  /* background-size: cover; */
-  /* background-position: center; */
   min-height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center; 
-}
-
-#root {
-  width: 1200px; /* Ajusta el ancho según tus necesidades */
-  padding: 20px; /* Ajusta el relleno según tus necesidades */
 }
