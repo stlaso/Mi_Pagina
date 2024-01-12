@@ -1,5 +1,6 @@
 import Inicio from './components/Inicio.js';
 import Tema from './components/Tema.js'
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 function App() {
   return (
