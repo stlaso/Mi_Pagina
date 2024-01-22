@@ -1,7 +1,9 @@
+import Proyectos from './components/Proyectos.js';
 import Experciencia from './components/Experiencia.js';
 import Icono from './components/Icono.js';
 import Tema from './components/Tema.js'
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import Habilidades from './components/Habilidades.js';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
           <Icono/>
           <hr className="border border-dotted border-gray-300 dark:border-gray-600 rounded-md"></hr>
           <Experciencia/>
+          <Proyectos/>
+          <Habilidades/>
         </main>
     </div>
     
