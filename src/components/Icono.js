@@ -1,10 +1,22 @@
-import React from 'react'
+import Avatar from "../img/avatar.jpg";
+
 
 function Icono() {
   return (
     <section className='flex flex-col sm:flex-row items-center gap-5'>
         <div className='relative w-44 h-44 bg-indigo-100 dark:bg-gray-700/60 border-8 border-white dark:border-gray-900/80 shadow-lg rounded-full overflow-hidden'>
-        <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+        <span
+          className="absolute inset-0 flex items-center justify-center"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <img
+            src={Avatar}
+            alt="Avatar"
+            className="w-full h-full object-cover rounded-full"
+          />
+        </span>
         </div>
         <div className="flex flex-col items-center sm:items-start gap-3">
           <div className='flex flex-col items-left gap-2'>
