@@ -9,6 +9,7 @@ import LaravelIcon from '../img/laravel.svg';
 import NetIcon from '../img/NET core.svg';
 import CSharpIcon from '../img/c-sharp-c.svg';
 import PHPIcon from '../img/PHP.svg';
+import '../index.css'
 
 function Habilidades() {
     return (
@@ -21,22 +22,22 @@ function Habilidades() {
             </header>
             <div className="flex flex-col gap-10">
                 <div className="flex gap-5">
-                    <img src={HtmlIcon} alt="Tailwind CSS Icon" className="w-8 h-8" />
-                    <img src={CssIcon} alt=" CSS Icon" className="w-8 h-8" />
-                    <img src={JsIcon} alt=" JS Icon" className="w-8 h-8" />
+                    <img src={HtmlIcon} alt="HTML Icon" className="w-48 h-16 "  />
+                    <img src={CssIcon} alt=" CSS Icon" className="w-48 h-16" />
+                    <img src={JsIcon} alt=" JS Icon" className="w-48 h-16"  />
                 </div>
                 <div className="flex gap-5">
-                <img src={TailwindCssIcon} alt=" Tailwindcss Icon" className="w-8 h-8" />
-                <img src={PHPIcon} alt=" PHP Icon" className="w-8 h-8" />
-                <img src={LaravelIcon} alt=" Laravel Icon" className="w-8 h-8" />
+                <img src={TailwindCssIcon} alt=" Tailwindcss Icon" className="w-48 h-16"  />
+                <img src={PHPIcon} alt=" PHP Icon" className="w-48 h-16"  />
+                <img src={LaravelIcon} alt=" Laravel Icon" className="w-48 h-16"  />
 
                 </div>
 
 
                 <div className="flex gap-5">
-                <img src={LivewireIcon} alt=" Livewire Icon" className="w-8 h-8" />
-                <img src={CSharpIcon} alt=" C# Icon" className="w-8 h-8" />
-                <img src={NetIcon} alt=" .Net core Icon" className="w-8 h-8" />
+                <img src={LivewireIcon} alt=" Livewire Icon" className="w-48 h-16"  />
+                <img src={CSharpIcon} alt=" C# Icon" className="w-48 h-16"  />
+                <img src={NetIcon} alt=" .Net core Icon" className="w-48 h-16"  />
                 </div>
             </div>
         </section>

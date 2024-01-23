@@ -19,9 +19,9 @@ function Experciencia() {
                             <p className="text-sm text-slate-500 dark:text-slate-400"></p>
                         </div>
                         <ul className="list-disc flex flex-col gap-2 ml-5 text-slate-700 dark:text-gray-300 text-md">
-                            <li>Administration Dashboard with React and NextJs for the management of patients, appointments, and services performed daily by a physiotherapy center.</li>
-                            <li>Administration Dashboard with React and NextJs for the management of patients, appointments, and services performed daily by a physiotherapy center.</li>
-                            <li>Administration Dashboard with React and NextJs for the management of patients, appointments, and services performed daily by a physiotherapy center.</li>
+                            <li>Desarrollador web full stack la municipalidad de san Fernando del Valle de Catamarca</li>
+                            <li>Curso orientado a desarrollo web full stack en Extrados</li>
+                            <li>Instituto superior San Martin.</li>
                         </ul>
                     </div>
                 </div>
