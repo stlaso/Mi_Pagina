@@ -2,13 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-  align-items: center;
-  justify-content: center;
 
-}
 
 .fondo {
   min-height: 100vh; 
@@ -17,49 +11,35 @@ body {
   justify-content: center; 
 }
 
-@keyframes Iconos {
-	0% {
-		animation-timing-function: ease-in;
-		opacity: 1;
-		transform: translateX(-48px);
-	}
-
-	24% {
-		opacity: 1;
-	}
-
-	40% {
-		animation-timing-function: ease-in;
-		transform: translateX(-26px);
-	}
-
-	65% {
-		animation-timing-function: ease-in;
-		transform: translateX(-13px);
-	}
-
-	82% {
-		animation-timing-function: ease-in;
-		transform: translateX(-6.5px);
-	}
-
-	93% {
-		animation-timing-function: ease-in;
-		transform: translateX(-4px);
-	}
-
-	25%,
-	55%,
-	75%,
-	87%,
-	98% {
-		animation-timing-function: ease-out;
-		transform: translateX(0px);
-	}
-
+@keyframes iconos {
+	0%,
 	100% {
-		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: translateX(0px);
+		transform: rotate(0deg);
+		transform-origin: 50% 0;
 	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+
 }
