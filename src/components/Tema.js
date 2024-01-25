@@ -4,12 +4,15 @@ import React, { useState, useEffect } from 'react';
 import Avatar from "../img/avatar.jpg";
 
 function Tema() {
+  // eslint-disable-next-line no-unused-vars
   const [modoOscuro, setModoOscuro] = useState(false);
+    // eslint-disable-next-line no-unused-vars
   const [mostrarIconoScroll, setMostrarIconoScroll] = useState(false);
+   // eslint-disable-next-line no-unused-vars
   const [scrolleando, setScrolleando] = useState(false);
 
   const alternarModoOscuro = () => {
-    setModoOscuro((prevModoOscuro) => !prevModoOscuro);
+    setModoOscuro((modoOscuro) => !modoOscuro);
     const htmlElement = document.querySelector('html');
     htmlElement.classList.toggle('dark');
   };
@@ -32,7 +35,7 @@ function Tema() {
 
   return (
     <div className="mx-auto max-w-3xl sticky top-0 z-10">
-      <header className="-full bottom-0 static flex items-center py-1 px-5 z-20 bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 backdrop-blur-lg transition-all duration-300">
+      <header className="-full bottom-0 static flex items-center py-1 px-5 z-20 bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 backdrop-blur-lg">
         {mostrarIconoScroll && (
           <div className="flex items-center gap-4">
           <div className="relative w-12 h-12 bg-indigo-100 dark:bg-gray-700/60 border-2 border-white dark:border-gray-900/80 shadow-lg rounded-full overflow-hidden">
