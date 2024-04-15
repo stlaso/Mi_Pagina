@@ -2,13 +2,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import React, { useState, useEffect } from 'react';
 import Avatar from "../img/avatar.jpg";
+import { faSun } from '@fortawesome/free-solid-svg-icons';
 
 function Tema() {
-  // eslint-disable-next-line no-unused-vars
+
   const [modoOscuro, setModoOscuro] = useState(false);
-    // eslint-disable-next-line no-unused-vars
+  
   const [mostrarIconoScroll, setMostrarIconoScroll] = useState(false);
-   // eslint-disable-next-line no-unused-vars
+ 
   const [scrolleando, setScrolleando] = useState(false);
 
   const alternarModoOscuro = () => {
@@ -52,7 +53,7 @@ function Tema() {
         </div>
         )}
         <button className='py-4 px-2 sm:py-5 flex items-center gap-4 outline-none ml-auto' onClick={alternarModoOscuro}>
-          <FontAwesomeIcon icon={faMoon} className='i-fa-pro:moon text-2xl hidden dark:block text-slate-100'/>
+          <FontAwesomeIcon icon={modoOscuro ? faSun :  faMoon } className={`text-2xl hidden ${modoOscuro ? 'dark:block text-slate-100' : 'text-gray-600'}`} />
         </button>
       </header>
     </div>

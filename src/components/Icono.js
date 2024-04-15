@@ -1,5 +1,6 @@
 import Avatar from "../img/avatar.jpg";
 
+
 function Icono() {
   return (
     <section className="flex flex-col sm:flex-row items-center gap-5">
@@ -26,7 +27,9 @@ function Icono() {
         <div className="flex gap-3">
           <button className="flex items-center text-sm gap-3 bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2 px-4 rounded-lg font-semibold">
             <div className="i-fa-pro:file-user text-xl sm:text-lg z-auto">
+              <a   href="/Martin_Barrios.pdf" download={""}>
               Curriculum
+              </a>
             </div>
           </button>
         </div>
