@@ -10,7 +10,7 @@ function Tema() {
   
   const [mostrarIconoScroll, setMostrarIconoScroll] = useState(false);
  
-  const [scrolleando, setScrolleando] = useState(false);
+
 
   const alternarModoOscuro = () => {
     setModoOscuro((modoOscuro) => !modoOscuro);
@@ -22,7 +22,7 @@ function Tema() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       setMostrarIconoScroll(scrollPosition > 180);
-      setScrolleando(true);
+  
     };
 
     window.addEventListener('scroll', handleScroll);
