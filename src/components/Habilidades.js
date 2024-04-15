@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import TailwindCssIcon from '../img/tailwind-css.svg';
 import HtmlIcon from '../img/file-type-html.svg';
-import CssIcon from '../img/file-type-css.svg';
+import react from '../img/react.svg';
 import JsIcon from '../img/javascript-js.svg';
 import LivewireIcon from '../img/Livewire.svg';
 import LaravelIcon from '../img/laravel.svg';
@@ -36,8 +36,8 @@ function Habilidades() {
             <div className="flex flex-col gap-10">
                 <div className="flex gap-5">
                     <img src={HtmlIcon} alt="HTML Icon" className="w-48 h-16 iconos" style={ iconosStyle } onAnimationEnd={handleAnimationEnd}    />
-                    <img src={CssIcon} alt=" CSS Icon" className="w-48 h-16" style={ iconosStyle } onAnimationEnd={handleAnimationEnd}    />
                     <img src={JsIcon} alt=" JS Icon" className="w-48 h-16" style={ iconosStyle } onAnimationEnd={handleAnimationEnd}  />
+                    <img src={react} alt=" CSS Icon" className="w-48 h-16" style={ iconosStyle } onAnimationEnd={handleAnimationEnd}    />
                 </div>
                 <div className="flex gap-5">
                     <img src={TailwindCssIcon} alt=" Tailwindcss Icon" className="w-48 h-16" style={ iconosStyle } onAnimationEnd={handleAnimationEnd}    />
