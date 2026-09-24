@@ -1,5 +1,6 @@
 import Proyectos from './components/Proyectos.js';
-import Experciencia from './components/Experiencia.js';
+import Experiencia from './components/Experiencia.js';
+import Formacion from './components/Formacion.js';
 import Icono from './components/Icono.js';
 import Tema from './components/Tema.js'
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -15,7 +16,8 @@ function App() {
         <main className='flex flex-col gap-16'>
           <Icono/>
           <hr className="border border-dotted border-gray-300 dark:border-gray-600 rounded-md"></hr>
-          <Experciencia/>
+          <Experiencia/>
+          <Formacion/>
           <Habilidades/>
           <Proyectos/>
           <Sociales/>

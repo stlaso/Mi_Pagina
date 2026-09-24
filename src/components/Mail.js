@@ -37,7 +37,7 @@ function Mail() {
             onClick={handleCopyToClipboard}
           >
             <FontAwesomeIcon icon={faCopy} />
-            <span className="opacity-0 group-hover:opacity-100 transition bg-slate-500 text-white p-1 rounded absolute top-0 -translate-y-full mt-2">
+            <span className="opacity-0 group-hover:opacity-100 transition bg-slate-500 text-white p-1 rounded absolute top-0 right-0 whitespace-nowrap -translate-y-full mt-2">
               {alerta}
             </span>
           </button>
